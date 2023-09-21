@@ -30,6 +30,7 @@ jobs:
 
     - name: check Jenkins version
       run: |
+        sudo apt install jenkins -y
         jenkins --version
         
 
