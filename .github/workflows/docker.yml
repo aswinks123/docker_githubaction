@@ -23,6 +23,10 @@ jobs:
     - name: Print the content of repository
       run: |
         ls
+    
+    - name: check docker version
+      run: |
+        docker --version
         
 
        
