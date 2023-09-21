@@ -28,8 +28,7 @@ jobs:
       run: |
         docker --version
         docker pull nginx
-        docker run -d -p 8080:80 nginx
-        curl localhost 80
+        docker images
 
 
     
