@@ -27,6 +27,10 @@ jobs:
     - name: check docker version
       run: |
         docker --version
+
+    - name: check Jenkins version
+      run: |
+        jenkins --version
         
 
        
